@@ -19,3 +19,4 @@ export class RestaurantsComponent implements OnInit {
   }
 
 }
+
