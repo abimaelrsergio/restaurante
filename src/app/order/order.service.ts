@@ -19,4 +19,7 @@ export class OrderService {
         this.cartService.decreaseQty(item);
     }
 
+    remove(item: CartItem){
+        this.cartService.removeItem(item);
+    }
 }
